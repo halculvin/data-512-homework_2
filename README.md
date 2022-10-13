@@ -1,6 +1,14 @@
 # Human Centered Data Science - A2: Considering Bias in Data
 
-This repository contains the code and resulting data for a brief analysis of English Wikipedia articles on dinosaurs from July 2015 through to September 2022. It was originally completed for the first assignment of the University of Washington's Human Centered Data Science (DATA 512) course in Autumn 2022. The goal of this assignment was to complete an exercise in data curation, including all major steps in the pipeline, namely data acquisition, processing, and analysis. Another goal was to complete this exercise with reproducibility in mind, ensuring that the documentation for the repository and code are detailed such that somebody else could easily complete the same work.
+This repository contains the code and resulting data which tries to explore the concept of bias in data using Wikipedia articles. It was originally completed for the second assignment of the University of Washington's Human Centered Data Science (DATA 512) course in Autumn 2022.
+The goal of this assignment is to explore the concept of bias in data using Wikipedia articles. This assignment will consider articles on political figures from different countries. For this assignment, I combined datasets of Wikipedia articles with a dataset of country populations, and used a machine learning service called ORES to estimate the quality of each article.
+I then performed an analysis of how the coverage of politicians on Wikipedia and the quality of articles about politicians varies among countries. 
+My analysis consists of a series of tables that show:
+The countries with the greatest and least coverage of politicians on Wikipedia compared to their population.
+The countries with the highest and lowest proportion of high quality articles about politicians.
+A ranking of geographic regions by articles-per-person and proportion of high quality articles.
+Finally I wrote short reflection on the project that focuses on how both findings from this analysis and the process I went through to reach those findings helps me understand the causes and consequences of biased data in large, complex data science projects.
+
 
 ## API Documentation
 
